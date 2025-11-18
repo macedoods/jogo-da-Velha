@@ -28,7 +28,7 @@ function criarTabuleiro() {
             div.classList.add(celula)
             div.classList.add(celula.toLowerCase())
         }
-
+        board.appendChild(div)
     });
 }
 
